@@ -1,0 +1,191 @@
+@media screen and (min-width: 1400px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li span {
+  cursor: pointer;
+}
+
+.nav-0 {
+  background: #303030;
+  color: #cccccc;
+  height: 1.5rem;
+  font-size: 12px;
+}
+
+.nav-1 {
+  background: #184a45ff;
+  height: 5rem;
+  padding-top: 15px;
+}
+
+.nav-1 img {
+  height: 50px;
+  width: 50px;
+}
+
+.logo {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.search {
+  padding: 0 16px;
+}
+
+.search button {
+  background: #c8c8c8;
+  border: none;
+  width: 50px;
+}
+
+.cart {
+  display: inline-block;
+
+  color: #c8c8c8;
+
+  cursor: pointer;
+}
+
+.sidebar {
+  background: #ffffff;
+  margin-top: 40px;
+  padding: 0;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.sidebar button {
+  text-align: right;
+  border: none;
+  background: none;
+}
+
+.sidebar li {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #c8c8c8;
+  padding: 12px;
+}
+
+.sidebar li span {
+  cursor: default;
+}
+
+.contents {
+  margin-top: 40px;
+}
+
+.mob {
+  background: #eee;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.sort {
+  margin: 10px 15px 10px 0;
+  padding-left: 25px;
+}
+
+.sort .sort-by {
+  width: 155px;
+}
+
+.sort .order {
+  width: 155px;
+}
+
+.order {
+  margin: 10px 15px 10px 0;
+  padding-left: 25px;
+}
+
+.items {
+  margin-bottom: 25px;
+}
+
+.col-lg-3 .card {
+  border: 1px solid #a9a9a9;
+  border-radius: 15px;
+  margin: 16px 0;
+}
+
+.card .card-img-top {
+  width: 10rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+.card .card-body {
+  display: inline-block;
+  padding-top: 30px;
+  height: 7rem;
+}
+
+.card-body li {
+  font-size: 15px;
+}
+
+li {
+  list-style: none;
+}
+
+.price {
+  color: red;
+}
+
+.cat-body {
+  margin-bottom: 40px;
+}
+
+.pagination > li > a {
+  background-color: white;
+  color: #686868;
+}
+
+.pagination > .active > a {
+  color: white;
+  background-color: #909090 !important;
+  border: solid 1px #808080 !important;
+}
+
+footer {
+  background: #303030;
+  color: #cccccc;
+  padding: 50px;
+}
+
+.foot h6 {
+  margin-bottom: 20px;
+}
+
+.foot li {
+  padding: 4px;
+  font-size: 12px;
+}
+
+.download-from img {
+  width: 130px;
+  height: 40px;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
+.copyfont {
+  padding: 20px;
+  font-size: 12px;
+}
+
+.copyright img {
+  cursor: pointer;
+  padding: 5px;
+  width: 60px;
+}
